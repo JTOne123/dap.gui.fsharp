@@ -28,9 +28,6 @@ open FSharp.Data
 open Dap.Prelude
 open Dap.Context.Generator.Util
 
-[<Literal>]
-let Prepare = "Prepare"
-
 let projects =
     !! "Demo.App/*.fsproj"
     ++ "Demo.Gui/*.fsproj"
